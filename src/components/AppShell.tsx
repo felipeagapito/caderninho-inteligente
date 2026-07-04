@@ -3,7 +3,7 @@ const navItems = [
   { href: "/vendas", label: "Vendas" },
   { href: "/estoque", label: "Estoque" },
   { href: "/clientes", label: "Clientes" },
-  { href: "/relatorio", label: "Resumo" }
+  { href: "/reports", label: "Resumo" }
 ];
 
 export function AppShell({ children, active = "/" }: { children: React.ReactNode; active?: string }) {
