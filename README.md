@@ -2,16 +2,44 @@
 
 Aplicativo mobile-first para registrar vendas, estoque, clientes e valores por texto ou voz.
 
-Este projeto é independente e familiar. Não tem relação com SAEL, Eminence ou outros sistemas.
+Este projeto e independente e familiar. Nao tem relacao com SAEL, Eminence ou outros sistemas.
 
 ## Objetivo
 
-Ajudar uma pessoa que vende produtos por catálogo a substituir, aos poucos, o caderninho físico por uma ferramenta simples, legível e segura.
+Ajudar uma pessoa que vende produtos por catalogo a substituir, aos poucos, o caderninho fisico por uma ferramenta simples, legivel e segura.
 
-## Princípios
+## Principios
 
-- Simplicidade antes de automação.
-- Confirmação antes de salvar qualquer venda.
-- Letras grandes, poucos botões e navegação clara.
+- Simplicidade antes de automacao.
+- Confirmacao antes de salvar qualquer venda.
+- Letras grandes, poucos botoes e navegacao clara.
 - Funcionar bem no celular.
-- Não depender de API de marca, WhatsApp ou APK no MVP.
+- Nao depender de API de marca, WhatsApp ou APK no MVP.
+
+## Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- PWA por manifest
+
+## Como rodar
+
+```bash
+npm install
+npm run dev
+```
+
+Depois abra o endereco local no navegador.
+
+## Validacao
+
+```bash
+npm run lint
+npm run build
+```
+
+## Fase atual
+
+Fase 0: fundacao visual com dados de exemplo, telas principais e instalacao por link em estrutura PWA.
