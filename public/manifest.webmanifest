@@ -1,0 +1,17 @@
+{
+  "name": "Caderninho Inteligente",
+  "short_name": "Caderninho",
+  "description": "Controle simples de vendas, estoque e clientes pelo celular.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8ee",
+  "theme_color": "#166534",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
